@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "909487963551",
+    "project_id": "ratoons",
+    "storage_bucket": "ratoons.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909487963551:android:1183898b76c58b98d0d1aa",
+        "android_client_info": {
+          "package_name": "com.ratoons"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909487963551-dgqpucgndikf3pk5fut6ds0l5g8d0msn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ratoons",
+            "certificate_hash": "68f20e0762be61a37d570e5ff2aaa57778d9ac14"
+          }
+        },
+        {
+          "client_id": "909487963551-kdr4pm0ph55rmrr9hmc9i5fqop9bdv5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe8JLLnpoyKxGFGADNR1qQltOzcuUJlRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909487963551-kdr4pm0ph55rmrr9hmc9i5fqop9bdv5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

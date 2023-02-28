@@ -1,0 +1,275 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ratoons"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] /home/viveks/.gradle/caches/transforms-3/e4194d73fe93b3c50d9bc6a16cde53c1/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] /home/viveks/.gradle/caches/transforms-3/e4194d73fe93b3c50d9bc6a16cde53c1/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/viveks/.gradle/caches/transforms-3/5c1afb37ce8b08496221b25c345b2907/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/viveks/.gradle/caches/transforms-3/5c1afb37ce8b08496221b25c345b2907/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:23:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/viveks/.gradle/caches/transforms-3/5c1afb37ce8b08496221b25c345b2907/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+15-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/viveks/.gradle/caches/transforms-3/5c1afb37ce8b08496221b25c345b2907/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:24:22-65
+16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/viveks/.gradle/caches/transforms-3/5c1afb37ce8b08496221b25c345b2907/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+16-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/viveks/.gradle/caches/transforms-3/5c1afb37ce8b08496221b25c345b2907/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.android.gms:play-services-iid:17.0.0] /home/viveks/.gradle/caches/transforms-3/54babe1a2f6733a233bcb686e00edef8/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+17-->[com.google.android.gms:play-services-iid:17.0.0] /home/viveks/.gradle/caches/transforms-3/54babe1a2f6733a233bcb686e00edef8/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:21.2.0] /home/viveks/.gradle/caches/transforms-3/3149960352233f9e84fa0c3231a02402/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:21.2.0] /home/viveks/.gradle/caches/transforms-3/3149960352233f9e84fa0c3231a02402/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+19
+20    <application
+20-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:6:5-40:19
+21        android:name="com.ratoons.MainApplication"
+21-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:7:7-38
+22        android:allowBackup="false"
+22-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:11:7-34
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.7.0] /home/viveks/.gradle/caches/transforms-3/8fcb66759c7e5a40fc028cb8d6aa1769/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:9:7-41
+26        android:label="@string/app_name"
+26-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:8:7-39
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:10:7-52
+28        android:theme="@style/AppTheme"
+28-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:12:7-38
+29        android:usesCleartextTraffic="true" >
+29-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/debug/AndroidManifest.xml:8:9-44
+30        <activity
+30-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/debug/AndroidManifest.xml:11:9-111
+31            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+31-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/debug/AndroidManifest.xml:11:19-83
+32            android:exported="false" />
+32-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/debug/AndroidManifest.xml:11:84-108
+33        <activity
+33-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:13:7-39:18
+34            android:name="com.ratoons.MainActivity"
+34-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:14:9-37
+35            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+35-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:16:9-118
+36            android:exported="true"
+36-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:19:9-32
+37            android:label="@string/app_name"
+37-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:15:9-41
+38            android:launchMode="singleTask"
+38-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:17:9-40
+39            android:windowSoftInputMode="adjustResize" >
+39-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:18:9-51
+40            <intent-filter>
+40-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:20:9-23:25
+41                <action android:name="android.intent.action.MAIN" />
+41-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:21:13-65
+41-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:21:21-62
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:22:13-73
+43-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:22:23-70
+44            </intent-filter>
+45            <intent-filter>
+45-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:24:9-29:25
+46                <action android:name="android.intent.action.VIEW" />
+46-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:25:13-65
+46-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:25:21-62
+47
+48                <category android:name="android.intent.category.DEFAULT" />
+48-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:26:13-72
+48-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:26:23-69
+49                <category android:name="android.intent.category.BROWSABLE" />
+49-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:27:13-74
+49-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:27:23-71
+50
+51                <data android:scheme="ratoons" />
+51-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:28:13-46
+51-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:28:19-43
+52            </intent-filter>
+53            <intent-filter>
+53-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:30:9-38:25
+54                <action android:name="android.intent.action.VIEW" />
+54-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:25:13-65
+54-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:25:21-62
+55
+56                <category android:name="android.intent.category.DEFAULT" />
+56-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:26:13-72
+56-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:26:23-69
+57                <category android:name="android.intent.category.BROWSABLE" />
+57-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:27:13-74
+57-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:27:23-71
+58
+59                <data android:scheme="http" />
+59-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:28:13-46
+59-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:28:19-43
+60                <data android:scheme="https" />
+60-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:28:13-46
+60-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:28:19-43
+61                <data
+61-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:28:13-46
+62                    android:host="www.ratoons.tech"
+63                    android:scheme="http" />
+63-->/home/viveks/Desktop/react_native_practies/Ratoons/android/app/src/main/AndroidManifest.xml:28:19-43
+64            </intent-filter>
+65        </activity>
+66
+67        <provider
+67-->[:react-native-webview] /home/viveks/Desktop/react_native_practies/Ratoons/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+68            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+68-->[:react-native-webview] /home/viveks/Desktop/react_native_practies/Ratoons/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+69            android:authorities="com.ratoons.fileprovider"
+69-->[:react-native-webview] /home/viveks/Desktop/react_native_practies/Ratoons/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+70            android:exported="false"
+70-->[:react-native-webview] /home/viveks/Desktop/react_native_practies/Ratoons/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+71            android:grantUriPermissions="true" >
+71-->[:react-native-webview] /home/viveks/Desktop/react_native_practies/Ratoons/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+72            <meta-data
+72-->[:react-native-webview] /home/viveks/Desktop/react_native_practies/Ratoons/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:63
+73                android:name="android.support.FILE_PROVIDER_PATHS"
+73-->[:react-native-webview] /home/viveks/Desktop/react_native_practies/Ratoons/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+74                android:resource="@xml/file_provider_paths" />
+74-->[:react-native-webview] /home/viveks/Desktop/react_native_practies/Ratoons/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-60
+75        </provider>
+76
+77        <service
+77-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/viveks/.gradle/caches/transforms-3/5c1afb37ce8b08496221b25c345b2907/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
+78            android:name="com.google.firebase.components.ComponentDiscoveryService"
+78-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/viveks/.gradle/caches/transforms-3/5c1afb37ce8b08496221b25c345b2907/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:29:13-84
+79            android:directBootAware="true"
+79-->[com.google.firebase:firebase-common:20.2.0] /home/viveks/.gradle/caches/transforms-3/f6bfc285b1421dbda3f31f0331f5fe48/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+80            android:exported="false" >
+80-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/viveks/.gradle/caches/transforms-3/5c1afb37ce8b08496221b25c345b2907/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:30:13-37
+81            <meta-data
+81-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/viveks/.gradle/caches/transforms-3/5c1afb37ce8b08496221b25c345b2907/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+82                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+82-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/viveks/.gradle/caches/transforms-3/5c1afb37ce8b08496221b25c345b2907/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/viveks/.gradle/caches/transforms-3/5c1afb37ce8b08496221b25c345b2907/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-installations:17.1.0] /home/viveks/.gradle/caches/transforms-3/82222c047ec7107f108bf8fc13835197/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+85                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+85-->[com.google.firebase:firebase-installations:17.1.0] /home/viveks/.gradle/caches/transforms-3/82222c047ec7107f108bf8fc13835197/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-installations:17.1.0] /home/viveks/.gradle/caches/transforms-3/82222c047ec7107f108bf8fc13835197/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+87        </service>
+88
+89        <provider
+89-->[com.google.firebase:firebase-common:20.2.0] /home/viveks/.gradle/caches/transforms-3/f6bfc285b1421dbda3f31f0331f5fe48/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+90            android:name="com.google.firebase.provider.FirebaseInitProvider"
+90-->[com.google.firebase:firebase-common:20.2.0] /home/viveks/.gradle/caches/transforms-3/f6bfc285b1421dbda3f31f0331f5fe48/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+91            android:authorities="com.ratoons.firebaseinitprovider"
+91-->[com.google.firebase:firebase-common:20.2.0] /home/viveks/.gradle/caches/transforms-3/f6bfc285b1421dbda3f31f0331f5fe48/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+92            android:directBootAware="true"
+92-->[com.google.firebase:firebase-common:20.2.0] /home/viveks/.gradle/caches/transforms-3/f6bfc285b1421dbda3f31f0331f5fe48/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+93            android:exported="false"
+93-->[com.google.firebase:firebase-common:20.2.0] /home/viveks/.gradle/caches/transforms-3/f6bfc285b1421dbda3f31f0331f5fe48/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+94            android:initOrder="100" />
+94-->[com.google.firebase:firebase-common:20.2.0] /home/viveks/.gradle/caches/transforms-3/f6bfc285b1421dbda3f31f0331f5fe48/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+95
+96        <activity
+96-->[com.google.android.gms:play-services-auth:19.2.0] /home/viveks/.gradle/caches/transforms-3/8d79aaf584adfd486e70973f501685da/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+97            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+97-->[com.google.android.gms:play-services-auth:19.2.0] /home/viveks/.gradle/caches/transforms-3/8d79aaf584adfd486e70973f501685da/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+98            android:excludeFromRecents="true"
+98-->[com.google.android.gms:play-services-auth:19.2.0] /home/viveks/.gradle/caches/transforms-3/8d79aaf584adfd486e70973f501685da/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+99            android:exported="false"
+99-->[com.google.android.gms:play-services-auth:19.2.0] /home/viveks/.gradle/caches/transforms-3/8d79aaf584adfd486e70973f501685da/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+100-->[com.google.android.gms:play-services-auth:19.2.0] /home/viveks/.gradle/caches/transforms-3/8d79aaf584adfd486e70973f501685da/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+101        <!--
+102            Service handling Google Sign-In user revocation. For apps that do not integrate with
+103            Google Sign-In, this service will never be started.
+104        -->
+105        <service
+105-->[com.google.android.gms:play-services-auth:19.2.0] /home/viveks/.gradle/caches/transforms-3/8d79aaf584adfd486e70973f501685da/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+106            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+106-->[com.google.android.gms:play-services-auth:19.2.0] /home/viveks/.gradle/caches/transforms-3/8d79aaf584adfd486e70973f501685da/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+107            android:exported="true"
+107-->[com.google.android.gms:play-services-auth:19.2.0] /home/viveks/.gradle/caches/transforms-3/8d79aaf584adfd486e70973f501685da/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+108            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+108-->[com.google.android.gms:play-services-auth:19.2.0] /home/viveks/.gradle/caches/transforms-3/8d79aaf584adfd486e70973f501685da/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+109            android:visibleToInstantApps="true" />
+109-->[com.google.android.gms:play-services-auth:19.2.0] /home/viveks/.gradle/caches/transforms-3/8d79aaf584adfd486e70973f501685da/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+110
+111        <activity
+111-->[com.google.android.gms:play-services-base:17.5.0] /home/viveks/.gradle/caches/transforms-3/94bde64094ecfd4691287e9ecbe77646/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+112            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+112-->[com.google.android.gms:play-services-base:17.5.0] /home/viveks/.gradle/caches/transforms-3/94bde64094ecfd4691287e9ecbe77646/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-base:17.5.0] /home/viveks/.gradle/caches/transforms-3/94bde64094ecfd4691287e9ecbe77646/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-base:17.5.0] /home/viveks/.gradle/caches/transforms-3/94bde64094ecfd4691287e9ecbe77646/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+115
+116        <receiver
+116-->[com.google.android.gms:play-services-measurement:21.2.0] /home/viveks/.gradle/caches/transforms-3/3149960352233f9e84fa0c3231a02402/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+117            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+117-->[com.google.android.gms:play-services-measurement:21.2.0] /home/viveks/.gradle/caches/transforms-3/3149960352233f9e84fa0c3231a02402/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+118            android:enabled="true"
+118-->[com.google.android.gms:play-services-measurement:21.2.0] /home/viveks/.gradle/caches/transforms-3/3149960352233f9e84fa0c3231a02402/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+119            android:exported="false" >
+119-->[com.google.android.gms:play-services-measurement:21.2.0] /home/viveks/.gradle/caches/transforms-3/3149960352233f9e84fa0c3231a02402/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+120        </receiver>
+121
+122        <service
+122-->[com.google.android.gms:play-services-measurement:21.2.0] /home/viveks/.gradle/caches/transforms-3/3149960352233f9e84fa0c3231a02402/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+123            android:name="com.google.android.gms.measurement.AppMeasurementService"
+123-->[com.google.android.gms:play-services-measurement:21.2.0] /home/viveks/.gradle/caches/transforms-3/3149960352233f9e84fa0c3231a02402/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+124            android:enabled="true"
+124-->[com.google.android.gms:play-services-measurement:21.2.0] /home/viveks/.gradle/caches/transforms-3/3149960352233f9e84fa0c3231a02402/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+125            android:exported="false" />
+125-->[com.google.android.gms:play-services-measurement:21.2.0] /home/viveks/.gradle/caches/transforms-3/3149960352233f9e84fa0c3231a02402/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+126        <service
+126-->[com.google.android.gms:play-services-measurement:21.2.0] /home/viveks/.gradle/caches/transforms-3/3149960352233f9e84fa0c3231a02402/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+127            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+127-->[com.google.android.gms:play-services-measurement:21.2.0] /home/viveks/.gradle/caches/transforms-3/3149960352233f9e84fa0c3231a02402/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+128            android:enabled="true"
+128-->[com.google.android.gms:play-services-measurement:21.2.0] /home/viveks/.gradle/caches/transforms-3/3149960352233f9e84fa0c3231a02402/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+129            android:exported="false"
+129-->[com.google.android.gms:play-services-measurement:21.2.0] /home/viveks/.gradle/caches/transforms-3/3149960352233f9e84fa0c3231a02402/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+130            android:permission="android.permission.BIND_JOB_SERVICE" />
+130-->[com.google.android.gms:play-services-measurement:21.2.0] /home/viveks/.gradle/caches/transforms-3/3149960352233f9e84fa0c3231a02402/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+131
+132        <meta-data
+132-->[com.google.android.gms:play-services-basement:18.1.0] /home/viveks/.gradle/caches/transforms-3/c1c2bbd87bdcfc2f546c717fb238d3c1/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+133            android:name="com.google.android.gms.version"
+133-->[com.google.android.gms:play-services-basement:18.1.0] /home/viveks/.gradle/caches/transforms-3/c1c2bbd87bdcfc2f546c717fb238d3c1/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+134            android:value="@integer/google_play_services_version" />
+134-->[com.google.android.gms:play-services-basement:18.1.0] /home/viveks/.gradle/caches/transforms-3/c1c2bbd87bdcfc2f546c717fb238d3c1/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+135
+136        <provider
+136-->[androidx.emoji2:emoji2:1.0.0] /home/viveks/.gradle/caches/transforms-3/510a893a5a713c473ecfd7630813f5e9/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+137            android:name="androidx.startup.InitializationProvider"
+137-->[androidx.emoji2:emoji2:1.0.0] /home/viveks/.gradle/caches/transforms-3/510a893a5a713c473ecfd7630813f5e9/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+138            android:authorities="com.ratoons.androidx-startup"
+138-->[androidx.emoji2:emoji2:1.0.0] /home/viveks/.gradle/caches/transforms-3/510a893a5a713c473ecfd7630813f5e9/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+139            android:exported="false" >
+139-->[androidx.emoji2:emoji2:1.0.0] /home/viveks/.gradle/caches/transforms-3/510a893a5a713c473ecfd7630813f5e9/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+140            <meta-data
+140-->[androidx.emoji2:emoji2:1.0.0] /home/viveks/.gradle/caches/transforms-3/510a893a5a713c473ecfd7630813f5e9/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+141                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+141-->[androidx.emoji2:emoji2:1.0.0] /home/viveks/.gradle/caches/transforms-3/510a893a5a713c473ecfd7630813f5e9/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+142                android:value="androidx.startup" />
+142-->[androidx.emoji2:emoji2:1.0.0] /home/viveks/.gradle/caches/transforms-3/510a893a5a713c473ecfd7630813f5e9/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+143            <meta-data
+143-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/viveks/.gradle/caches/transforms-3/11c24c860b3700f7a63323b5487087ad/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+144                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+144-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/viveks/.gradle/caches/transforms-3/11c24c860b3700f7a63323b5487087ad/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+145                android:value="androidx.startup" />
+145-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/viveks/.gradle/caches/transforms-3/11c24c860b3700f7a63323b5487087ad/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+146        </provider>
+147    </application>
+148
+149</manifest>

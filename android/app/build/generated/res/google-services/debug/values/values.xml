@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">909487963551-kdr4pm0ph55rmrr9hmc9i5fqop9bdv5s.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">909487963551</string>
+    <string name="google_api_key" translatable="false">AIzaSyCe8JLLnpoyKxGFGADNR1qQltOzcuUJlRA</string>
+    <string name="google_app_id" translatable="false">1:909487963551:android:1183898b76c58b98d0d1aa</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCe8JLLnpoyKxGFGADNR1qQltOzcuUJlRA</string>
+    <string name="google_storage_bucket" translatable="false">ratoons.appspot.com</string>
+    <string name="project_id" translatable="false">ratoons</string>
+</resources>
